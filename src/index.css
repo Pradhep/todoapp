@@ -1,0 +1,135 @@
+.container {
+  margin: 0 auto;
+  max-width: 1000px;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.title {
+  text-align: center;
+  color: #16a085;
+}
+
+.form-group {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.form-control {
+  padding: 10px;
+  margin: 0 10px;
+  width: 200px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.btn {
+  padding: 10px 20px;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.btn-add {
+  background-color: #16a085;
+}
+
+.btn-save {
+  background-color: #16a085;
+}
+.filter-container {
+  display: flex; /* Use flexbox for better alignment */
+  justify-content: flex-end; /* Move filter to the right */
+  margin-bottom: 20px; /* Spacing below the filter */
+  padding-right: 20px; /* Some padding on the right for alignment */
+  align-items: center;
+}
+
+.filter-select {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-left: 5px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-between; /* Evenly space the cards */
+  flex-wrap: wrap; /* Allow cards to wrap */
+}
+
+.card {
+  background-color: #7ee0a7; /* Card background color */
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  width: 30%; /* Ensure three cards per row */
+  text-align: left;
+  box-sizing: border-box; /* Include padding/border in width */
+}
+
+.completed {
+  background-color: #2ecc71;
+}
+
+.not-completed {
+  background-color: #f07298;
+}
+
+.card-actions {
+  margin-top: 10px;
+}
+
+.btn-edit {
+  background-color: #2980b9;
+  margin-right: 10px;
+}
+
+.btn-delete {
+  background-color: #e74c3c;
+}
+
+/* Existing styles for dropdowns */
+.status-dropdown {
+  width: 70%;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.completed-dropdown {
+  background-color: #4cc77f; /* Green for completed */
+  color: white;
+}
+
+.not-completed-dropdown {
+  background-color: #fa2347; /* Red for not completed */
+  color: white;
+}
+
+.status-dropdown-filter {
+  width: 55%;
+  padding: 4px;
+  border-radius: 5px;
+}
+
+.header-container {
+  display: flex; /* Use flexbox for layout */
+  justify-content: space-between; /* Align items with space in between */
+  align-items: center; /* Vertically center the items */
+  width: 100%; /* Ensure full width */
+  margin-bottom: 20px; /* Add some space below the header */
+}
+
+.todos-heading {
+  margin: 0; /* Remove default margin */
+  font-size: 1.5em; /* Adjust font size if necessary */
+}
+
+/* .filter-container {
+  display: flex; /* Use flexbox for alignment 
+   /* Vertically center the label and dropdown 
+} */
+
+
+
